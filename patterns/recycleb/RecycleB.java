@@ -4,8 +4,13 @@
 // Visit http://OnJava8.com for more book information.
 // {java patterns.recycleb.RecycleB}
 package patterns.recycleb;
-import patterns.trash.*;
-import java.util.*;
+
+import patterns.trash.Bins;
+import patterns.trash.ParseTrash;
+import patterns.trash.Trash;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class RecycleB {
   public static void main(String[] args) {

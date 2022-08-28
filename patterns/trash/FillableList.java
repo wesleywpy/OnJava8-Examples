@@ -4,7 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // Adapter that makes a List Fillable.
 package patterns.trash;
-import java.util.*;
+
+import java.util.List;
 
 public class FillableList<T extends Trash>
 implements Fillable<T> {

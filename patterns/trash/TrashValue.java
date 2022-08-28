@@ -4,7 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // Sums the value of Trash in a bin.
 package patterns.trash;
-import java.util.*;
+
+import java.util.List;
 
 public class TrashValue {
   private static double total;

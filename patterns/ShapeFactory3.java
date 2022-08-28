@@ -3,10 +3,15 @@
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Polymorphic factory methods.
-import java.util.*;
-import java.util.function.*;
-import java.util.stream.*;
-import patterns.shapes.*;
+
+import patterns.shapes.Circle;
+import patterns.shapes.Shape;
+import patterns.shapes.Square;
+import patterns.shapes.Triangle;
+
+import java.util.Random;
+import java.util.function.Supplier;
+import java.util.stream.Stream;
 
 interface PolymorphicFactory {
   Shape create();

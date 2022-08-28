@@ -4,8 +4,10 @@
 // Visit http://OnJava8.com for more book information.
 // {java patterns.strategy.StrategyPattern2}
 package patterns.strategy;
-import java.util.function.*;
-import java.util.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
 
 // "Context" is now incorporated:
 class FindMinima2 {

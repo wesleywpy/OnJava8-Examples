@@ -4,8 +4,12 @@
 // Visit http://OnJava8.com for more book information.
 // Generic TypeMap works for any types.
 package patterns;
-import java.util.*;
-import java.util.stream.*;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Stream;
 
 public class TypeMap<T> {
   public final Map<Class, List<T>> map =

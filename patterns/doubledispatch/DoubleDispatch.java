@@ -6,8 +6,14 @@
 // than one unknown type during a method call.
 // {java patterns.doubledispatch.DoubleDispatch}
 package patterns.doubledispatch;
-import patterns.trash.*;
-import java.util.*;
+
+import patterns.trash.ParseTrash;
+import patterns.trash.Trash;
+import patterns.trash.TrashValue;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 class AluminumBin extends TypedBin {
   public AluminumBin() { super("Aluminum"); }

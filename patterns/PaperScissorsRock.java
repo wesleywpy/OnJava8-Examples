@@ -3,16 +3,17 @@
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // Demonstration of multiple dispatching.
-import java.util.*;
-import java.util.function.*;
-import java.util.stream.*;
-import enums.Outcome;
-import static enums.Outcome.*;
-import enums.Item;
-import enums.Paper;
-import enums.Scissors;
-import enums.Rock;
+
+import enums.*;
 import onjava.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.SplittableRandom;
+import java.util.function.Supplier;
+import java.util.stream.Stream;
+
+import static enums.Outcome.*;
 import static onjava.Tuple.*;
 
 class ItemFactory {

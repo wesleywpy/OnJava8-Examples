@@ -4,8 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // Aluminum with double dispatching.
 package patterns.doubledispatch;
-import patterns.trash.*;
-import java.util.*;
+
+import java.util.List;
 
 public class Aluminum extends patterns.trash.Aluminum
 implements TypedBinMember {

@@ -5,10 +5,15 @@
 // Recycling with reflection.
 // {java patterns.recyclea.RecycleA}
 package patterns.recyclea;
-import java.util.*;
-import java.util.function.*;
-import java.util.stream.*;
+
 import patterns.trash.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.SplittableRandom;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 class SimpleFactory {
   static final

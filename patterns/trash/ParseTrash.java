@@ -6,11 +6,12 @@
 // Trash objects, placing each into a Fillable.
 // {java patterns.trash.ParseTrash}
 package patterns.trash;
-import java.util.*;
-import java.util.stream.*;
-import java.io.*;
-import java.nio.file.*;
+
+import java.io.IOException;
 import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ParseTrash {
   public static String source = "Trash.dat";

@@ -4,9 +4,10 @@
 // Visit http://OnJava8.com for more book information.
 // Dynamic discovery of Trash types.
 package patterns.trash;
-import java.util.*;
-import java.util.function.*;
-import java.lang.reflect.*;
+
+import java.lang.reflect.Constructor;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DynaFactory {
   private Map<String, Constructor> constructors =

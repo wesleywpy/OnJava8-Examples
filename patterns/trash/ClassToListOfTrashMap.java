@@ -4,7 +4,9 @@
 // Visit http://OnJava8.com for more book information.
 // Display a Map<Class, List<Trash>>.
 package patterns.trash;
-import java.util.*;
+
+import java.util.List;
+import java.util.Map;
 
 public class ClassToListOfTrashMap {
   public static void

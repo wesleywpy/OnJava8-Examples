@@ -4,8 +4,10 @@
 // Visit http://OnJava8.com for more book information.
 // {java patterns.recyclec.RecycleC}
 package patterns.recyclec;
+
 import patterns.trash.*;
-import java.util.*;
+
+import java.util.ArrayList;
 
 // A List that only admits the right type:
 class

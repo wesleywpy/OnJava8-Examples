@@ -3,7 +3,8 @@
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 package patterns.shapes;
-import java.util.stream.*;
+
+import java.util.stream.Stream;
 
 public class FactoryTest {
   public static void test(FactoryMethod factory) {

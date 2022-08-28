@@ -4,8 +4,8 @@
 // Visit http://OnJava8.com for more book information.
 // Paper with double dispatching.
 package patterns.doubledispatch;
-import patterns.trash.*;
-import java.util.*;
+
+import java.util.List;
 
 public class Paper extends patterns.trash.Paper
 implements TypedBinMember {

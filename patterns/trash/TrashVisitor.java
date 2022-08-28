@@ -6,7 +6,10 @@
 // each implementation of Visitor.
 // {java patterns.trash.TrashVisitor}
 package patterns.trash;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 class PriceVisitor extends Visitor {
   public PriceVisitor() { super("price"); }

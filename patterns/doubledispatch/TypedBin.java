@@ -4,8 +4,11 @@
 // Visit http://OnJava8.com for more book information.
 // A List that can grab the right type.
 package patterns.doubledispatch;
-import patterns.trash.*;
-import java.util.*;
+
+import patterns.trash.Trash;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class TypedBin {
   private List<Trash> typedBin =

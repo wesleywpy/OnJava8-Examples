@@ -4,8 +4,11 @@
 // Visit http://OnJava8.com for more book information.
 // {java patterns.trash.GroupingBy}
 package patterns.trash;
-import java.util.*;
-import java.util.stream.*;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
 
 public class GroupingBy {
   public static void main(String[] args) {

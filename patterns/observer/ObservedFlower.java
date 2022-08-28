@@ -5,8 +5,9 @@
 // Demonstration of the Observer pattern.
 // {java patterns.observer.ObservedFlower}
 package patterns.observer;
-import java.util.*;
-import java.util.function.*;
+
+import java.util.Observable;
+import java.util.Observer;
 
 @SuppressWarnings("deprecation")
 class Flower {

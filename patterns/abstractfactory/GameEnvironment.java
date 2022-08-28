@@ -5,7 +5,8 @@
 // An example of the Abstract Factory pattern.
 // {java patterns.abstractfactory.GameEnvironment}
 package patterns.abstractfactory;
-import java.util.function.*;
+
+import java.util.function.Supplier;
 
 interface Obstacle {
   void action();

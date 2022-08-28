@@ -5,9 +5,13 @@
 // Demonstration of the Visitor pattern.
 // {java patterns.visitor.BeeAndFlowers}
 package patterns.visitor;
-import java.util.*;
-import java.util.function.*;
-import java.util.stream.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.SplittableRandom;
+import java.util.function.Supplier;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 interface Visitor {
   void visit(Gladiolus g);

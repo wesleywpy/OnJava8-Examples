@@ -4,8 +4,10 @@
 // Visit http://OnJava8.com for more book information.
 // {java patterns.chain.ChainOfResponsibility}
 package patterns.chain;
-import java.util.*;
-import java.util.function.*;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
 
 interface Algorithm {
   Result algorithm(List<Double> line);

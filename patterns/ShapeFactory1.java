@@ -3,8 +3,7 @@
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 // A basic static factory method.
-import java.util.*;
-import java.util.stream.*;
+
 import patterns.shapes.*;
 
 public class ShapeFactory1 implements FactoryMethod {

@@ -3,7 +3,9 @@
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
 package patterns.trash;
-import java.util.*;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Bins {
   final List<Trash> bin;

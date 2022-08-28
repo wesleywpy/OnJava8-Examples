@@ -2,10 +2,15 @@
 // (c)2021 MindView LLC: see Copyright.txt
 // We make no guarantees that this code is fit for any purpose.
 // Visit http://OnJava8.com for more book information.
-import java.util.*;
-import java.lang.reflect.*;
-import java.util.stream.*;
-import patterns.shapes.*;
+
+import patterns.shapes.BadShapeCreation;
+import patterns.shapes.FactoryMethod;
+import patterns.shapes.FactoryTest;
+import patterns.shapes.Shape;
+
+import java.lang.reflect.Constructor;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ShapeFactory2 implements FactoryMethod {
   private Map<String, Constructor> factories =

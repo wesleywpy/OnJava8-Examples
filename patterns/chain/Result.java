@@ -4,7 +4,9 @@
 // Visit http://OnJava8.com for more book information.
 // Carries the result or indicates failure.
 package patterns.chain;
-import java.util.*;
+
+import java.util.Collections;
+import java.util.List;
 
 public class Result {
   public final boolean success;
